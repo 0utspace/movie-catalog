@@ -1,0 +1,41 @@
+.reviews {
+  width: 1000px;
+  .review {
+    margin-bottom: 25px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    .review-details {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      .review-left {
+        .author {
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .author-dt {
+          opacity: 0.7;
+          font-size: 0.8 rem;
+        }
+      }
+      .review-right {
+        .rating {
+          display: flex;
+          align-items: center;
+          .rating-value {
+            margin-left: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .review-text {
+      font-size: 18px;
+    }
+  }
+}
+
+.author_dt {
+  font-size: 0.8rem;
+}
